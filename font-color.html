@@ -1,0 +1,40 @@
+<html>
+<head>
+<title> FontColor</title>
+<style>
+div{
+border:2px solid green;
+width:300px;
+margin:200px;
+padding:20px;
+}
+</style>
+<script>
+const font=()=>
+{
+var element=document.getElementById('t2');
+var Color=element.value;
+var heading=document.getElementById('t1');
+heading.style.color=Color;
+}
+</script>
+</head>
+<body>
+<div>
+<h1 id="t1"> Welcome to a Quantum Physics</h1>
+<select id="t2" onchange="font()">
+<option value="red">Red</option>
+<option value="green">Green</option>
+<option value="gold">Gold</option>
+
+</select>
+<p>select color</p>
+</div>
+<script>
+var x=["xyz","abc"];
+document.write(typeof x);
+var y={first:"jan" ,last:"feb"};
+document.write(typeof y);
+</script>
+</body>
+</html>
